@@ -13,7 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         if (userID != "") {
-            MainView()
+            MemoryListView()
         } else {
             AuthView()
         }
